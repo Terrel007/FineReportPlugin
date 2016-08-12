@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <id>com.fr.theme.sky</id>
+    <name><![CDATA[天空]]></name>
+    <active>yes</active>
+    <version>0.1</version>
+    <env-version>8.0</env-version>
+    <vendor>Alvin</vendor>
+    <jartime>2016-08-11</jartime>
+    <description><![CDATA[天空主题]]></description>
+    <change-notes><![CDATA[有一些变化]]></change-notes>
+    <extra-core></extra-core>
+    <extra-report></extra-report>
+    <extra-designer>
+    </extra-designer>
+    <extra-platform>
+        <ThemeVariousProvider class="com.fr.theme.sky.ThemeSky"/>
+    </extra-platform>
+    <extra-chart-type></extra-chart-type>
+    <extra-chart-design></extra-chart-design>
+</plugin>

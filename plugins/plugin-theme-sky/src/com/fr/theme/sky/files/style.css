@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: 'plugin-sky';
+    src: url('${servletURL}?op=resource&resource=/com/fr/theme/sky/files/icon/iconfont.eot'); /* IE9*/
+    src: url('${servletURL}?op=resource&resource=/com/fr/theme/sky/files/icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('${servletURL}?op=resource&resource=/com/fr/theme/sky/files/icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('${servletURL}?op=resource&resource=/com/fr/theme/sky/files/icon/iconfont.ttf')  format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('${servletURL}?op=resource&resource=/com/fr/theme/sky/files/icon/iconfont.svg#iconfont') format('svg'); /*  iOS 4.1- */
+}
+.fs-navibar-item i{
+    font-family: "plugin-sky" !important;
+    font-size:16px !important;
+}
+
+.icon-navi-message:before{
+    content:"\e602" !important;
+}
+
+.icon-navi-admin:before{
+    content:"\e603" !important;
+}
+
+.icon-navi-favorite:before{
+    content:"\e60f" !important;
+}
+
+#fs-frame-search{
+    border-radius:16px;
+    background-color: #ffffff;
+}
+
+.icon-navi-search:before{
+    font-family:"plugin-sky" !important;
+    content:"\e601" !important;
+}
+
+.fui-bsc{
+    color:#3059b8;
+}
+
+.fui-bsb{
+    background-color:#3059b8;
+}
+
+
+.node-navi{
+    position: relative;
+    float: right;
+    right: 30px;
+    list-style: none;
+    height: 60px;
+    top: 0;
+}
+
+.node-navi li{
+    position: relative;
+    float: left;
+    left: 0;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.node-navi li:hover{
+    color: #6fd3ff;
+}
+
+.node-pane{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    z-Index: 10000;
+}
+.node-pane-inner{
+    position: relative;
+    _height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: rgb(41, 90, 148);
+    background: rgba(41, 90, 148, 0.85);
+    *width:200px;
+}
+.node-select{
+    background: #295a94;
+}
+
+.node-pane a, .node-title{
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    min-width: 160px;
+    _width:180px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: white;
+    padding: 3px 5px 3px 12px;
+    cursor: pointer;
+}
+
+.node-pane a:hover{
+    background: rgb(41, 90, 148);
+}
+.node-title{
+    padding: 5px 5px 5px 4px;
+    cursor: default;
+    color: #6fd3ff;
+    font-weight: bold;
+}
